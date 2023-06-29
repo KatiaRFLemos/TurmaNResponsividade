@@ -26,14 +26,34 @@
 }
 .lista__menu{
     display: none;
+    background-color: var(--branco);
     position: absolute;
     top:100%;
+    width: 60vw;
+}
+
+.conteiner__botao{
+    display: none;
+}
+
+.lista__menu-titulo{
+    font-weight: 700;
+    color: var(--amarelo);
+}
+.lista__menu-item{
+    padding: 1em;
+}
+.lista__menu-link{
+color: var(--roxo);
+font: weight: 500;
+- font-style: none;
 }
 
 .conteiner__botao:checked~.lista__menu{
     display: block;
 }
 
+}
 .conteiner__botao:{
     display: none;
 }
