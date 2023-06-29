@@ -27,6 +27,9 @@
     top:100%;
     width: 60vw;
 }
+.conteiner__botao:checked~.lista__menu{
+    display: block;
+}
 .conteiner__botao {
     display: none;
 }
@@ -34,7 +37,7 @@
     padding: 1em;
     background-color: var(--branco);
 }
-.lista__menu-titulo {
+.lista__menu-titulo{
     font-weight: 700;
     color: var(--amarelo);
 }
