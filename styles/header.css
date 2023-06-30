@@ -49,8 +49,6 @@ font-weight: 0.5em;
 background-clip: text;
 text-transform: uppercase;
 }
-
-}
-.conteiner__botao:{
+.conteiner__botao{
     display: none;
 }
